@@ -1,0 +1,77 @@
+<script type="text/javascript">
+    function tambah(){
+        var bil1=parseFloat(document.calculator.bil1.value);
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil= bil1+bil2;
+        document.calculator.hasil.value=hasil;
+    }
+    function kurang(){
+        var bil1=parseFloat(document.calculator.bil1.value);
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil= bil1-bil2;
+        document.calculator.hasil.value=hasil;
+    }
+    function kali(){
+        var bil1=parseFloat(document.calculator.bil1.value);
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil= bil1*bil2;
+        document.calculator.hasil.value=hasil;
+    }
+    function bagi(){
+     var bil1=parseFloat(document.calculator.bil1.value);
+        var bil2=parseFloat(document.calculator.bil2.value);
+        var hasil= bil1/bil2;
+        document.calculator.hasil.value=hasil;
+    }
+    </script>
+    <script lang = "Javascript">
+        <!--
+            window.alert("Tugas Praktikum 2");
+        //-->
+     </script>
+<html>
+<head>
+ <title>Praktikum 2</title>
+ <style type="text/css">
+  .button{
+   background-color: violet;
+  }
+  .table{
+   background-color: whitesmoke;
+   margin: 10px;
+   padding: 10px;
+  }
+ </style>
+</head>
+<body>
+ <form name="calculator">
+  
+  <table style="background-color: " class="table">
+   <caption>Calculator</caption>
+   <tr>
+        <td>Bil 1</td>
+        <td>:</td>
+        <td><input type="number" name="bil1"></td>
+   </tr>
+   <tr>
+        <td>Bil 2</td>
+        <td>:</td>
+        <td><input type="number" name="bil2"></td>
+   </tr>
+   <tr>
+        <td>Hasil</td>
+        <td>:</td>
+        <td><input type="number" name="hasil"></td>
+   </tr>
+   <tr>
+    <td colspan="3" align="center">
+     <input class="button" type="button" onclick="tambah()" value="  +  ">
+     <input class="button" type="button" onclick="kurang()" value="  -  ">
+     <input class="button" type="button" onclick="kali()" value="  *  ">
+     <input class="button" type="button" onclick="bagi()" value="  /  ">
+    </td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
