@@ -23,3 +23,9 @@
 ![Alt Text](https://github.com/ariannnnnnn/praktikum-Javascript/blob/master/Modul%203/Screenshot%20(1672).png)
 # 12.Latihan Praktikum 12
 ![Alt Text](https://github.com/ariannnnnnn/praktikum-Javascript/blob/master/Modul%203/Screenshot%20(1673).png)
+
+# Praktikum
+# Praktikum 1
+![Alt Text](https://github.com/ariannnnnnn/praktikum-Javascript/blob/master/Modul%203/Screenshot%20(1674).png)
+# Praktikum 2
+![Alt Text](https://github.com/ariannnnnnn/praktikum-Javascript/blob/master/Modul%203/Screenshot%20(1675).png)
